@@ -1,0 +1,50 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "F:/ComOrga_design/genesys/lab6/test_for_Top_isim_beh.exe" -prj "F:/ComOrga_design/genesys/lab6/test_for_Top_beh.prj" "work.test_for_Top" "work.glbl" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "F:/ComOrga_design/genesys/lab6/signext.v" into library work
+Analyzing Verilog file "F:/ComOrga_design/genesys/lab6/register.v" into library work
+WARNING:HDLCompiler:751 - "F:/ComOrga_design/genesys/lab6/register.v" Line 34: Redeclaration of ansi port readData1 is not allowed
+WARNING:HDLCompiler:751 - "F:/ComOrga_design/genesys/lab6/register.v" Line 35: Redeclaration of ansi port readData2 is not allowed
+WARNING:HDLCompiler:991 - "F:/ComOrga_design/genesys/lab6/register.v" Line 43: Event expressions must result in a singular type
+Analyzing Verilog file "F:/ComOrga_design/genesys/lab6/inst_memory.v" into library work
+WARNING:HDLCompiler:991 - "F:/ComOrga_design/genesys/lab6/inst_memory.v" Line 33: Event expressions must result in a singular type
+Analyzing Verilog file "F:/ComOrga_design/genesys/lab6/data_memory.v" into library work
+WARNING:HDLCompiler:991 - "F:/ComOrga_design/genesys/lab6/data_memory.v" Line 37: Event expressions must result in a singular type
+Analyzing Verilog file "F:/ComOrga_design/genesys/lab6/Ctr.v" into library work
+WARNING:HDLCompiler:751 - "F:/ComOrga_design/genesys/lab6/Ctr.v" Line 34: Redeclaration of ansi port regDst is not allowed
+WARNING:HDLCompiler:751 - "F:/ComOrga_design/genesys/lab6/Ctr.v" Line 35: Redeclaration of ansi port aluSrc is not allowed
+WARNING:HDLCompiler:751 - "F:/ComOrga_design/genesys/lab6/Ctr.v" Line 36: Redeclaration of ansi port memToReg is not allowed
+WARNING:HDLCompiler:751 - "F:/ComOrga_design/genesys/lab6/Ctr.v" Line 37: Redeclaration of ansi port regWrite is not allowed
+WARNING:HDLCompiler:751 - "F:/ComOrga_design/genesys/lab6/Ctr.v" Line 38: Redeclaration of ansi port memRead is not allowed
+WARNING:HDLCompiler:751 - "F:/ComOrga_design/genesys/lab6/Ctr.v" Line 39: Redeclaration of ansi port memWrite is not allowed
+WARNING:HDLCompiler:751 - "F:/ComOrga_design/genesys/lab6/Ctr.v" Line 40: Redeclaration of ansi port branch is not allowed
+WARNING:HDLCompiler:751 - "F:/ComOrga_design/genesys/lab6/Ctr.v" Line 41: Redeclaration of ansi port aluOp is not allowed
+WARNING:HDLCompiler:751 - "F:/ComOrga_design/genesys/lab6/Ctr.v" Line 42: Redeclaration of ansi port jump is not allowed
+Analyzing Verilog file "F:/ComOrga_design/genesys/lab6/AluCtr.v" into library work
+WARNING:HDLCompiler:751 - "F:/ComOrga_design/genesys/lab6/AluCtr.v" Line 27: Redeclaration of ansi port aluCtr is not allowed
+Analyzing Verilog file "F:/ComOrga_design/genesys/lab6/Alu.v" into library work
+WARNING:HDLCompiler:751 - "F:/ComOrga_design/genesys/lab6/Alu.v" Line 29: Redeclaration of ansi port zero is not allowed
+WARNING:HDLCompiler:751 - "F:/ComOrga_design/genesys/lab6/Alu.v" Line 30: Redeclaration of ansi port aluRes is not allowed
+Analyzing Verilog file "F:/ComOrga_design/genesys/lab6/Top.v" into library work
+Analyzing Verilog file "F:/ComOrga_design/genesys/lab6/test_for_Top.v" into library work
+Analyzing Verilog file "F:/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module Ctr
+Compiling module signext
+Compiling module AluCtr
+Compiling module Alu
+Compiling module register
+Compiling module data_memory
+Compiling module inst_memory
+Compiling module Top
+Compiling module test_for_Top
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 3 sub-compilation(s) to finish...
+Compiled 10 Verilog Units
+Built simulation executable F:/ComOrga_design/genesys/lab6/test_for_Top_isim_beh.exe
+Fuse Memory Usage: 28368 KB
+Fuse CPU Usage: 576 ms

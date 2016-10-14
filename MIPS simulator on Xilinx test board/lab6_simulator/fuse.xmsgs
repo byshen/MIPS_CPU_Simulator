@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"F:/ComOrga_design/genesys/lab6/register.v" Line 34: Redeclaration of ansi port <arg fmt="%s" index="1">readData1</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"F:/ComOrga_design/genesys/lab6/register.v" Line 35: Redeclaration of ansi port <arg fmt="%s" index="1">readData2</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="991" delta="unknown" >"F:/ComOrga_design/genesys/lab6/register.v" Line 43: Event expressions must result in a singular type
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="991" delta="unknown" >"F:/ComOrga_design/genesys/lab6/inst_memory.v" Line 33: Event expressions must result in a singular type
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="991" delta="unknown" >"F:/ComOrga_design/genesys/lab6/data_memory.v" Line 37: Event expressions must result in a singular type
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"F:/ComOrga_design/genesys/lab6/Ctr.v" Line 34: Redeclaration of ansi port <arg fmt="%s" index="1">regDst</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"F:/ComOrga_design/genesys/lab6/Ctr.v" Line 35: Redeclaration of ansi port <arg fmt="%s" index="1">aluSrc</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"F:/ComOrga_design/genesys/lab6/Ctr.v" Line 36: Redeclaration of ansi port <arg fmt="%s" index="1">memToReg</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"F:/ComOrga_design/genesys/lab6/Ctr.v" Line 37: Redeclaration of ansi port <arg fmt="%s" index="1">regWrite</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"F:/ComOrga_design/genesys/lab6/Ctr.v" Line 38: Redeclaration of ansi port <arg fmt="%s" index="1">memRead</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"F:/ComOrga_design/genesys/lab6/Ctr.v" Line 39: Redeclaration of ansi port <arg fmt="%s" index="1">memWrite</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"F:/ComOrga_design/genesys/lab6/Ctr.v" Line 40: Redeclaration of ansi port <arg fmt="%s" index="1">branch</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"F:/ComOrga_design/genesys/lab6/Ctr.v" Line 41: Redeclaration of ansi port <arg fmt="%s" index="1">aluOp</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"F:/ComOrga_design/genesys/lab6/Ctr.v" Line 42: Redeclaration of ansi port <arg fmt="%s" index="1">jump</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"F:/ComOrga_design/genesys/lab6/AluCtr.v" Line 27: Redeclaration of ansi port <arg fmt="%s" index="1">aluCtr</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"F:/ComOrga_design/genesys/lab6/Alu.v" Line 29: Redeclaration of ansi port <arg fmt="%s" index="1">zero</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"F:/ComOrga_design/genesys/lab6/Alu.v" Line 30: Redeclaration of ansi port <arg fmt="%s" index="1">aluRes</arg> is not allowed
+</msg>
+
+</messages>
+

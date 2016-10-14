@@ -1,0 +1,58 @@
+Release 13.4 - xst O.87xd (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to E:/codsjtu_design/genesys/lab6/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Parameter xsthdpdir set to E:/codsjtu_design/genesys/lab6/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "signext.v" in library work
+Compiling verilog file "register.v" in library work
+Module <signext> compiled
+ERROR:HDLCompilers:27 - "register.v" line 34 Illegal redeclaration of 'readData1'
+ERROR:HDLCompilers:27 - "register.v" line 35 Illegal redeclaration of 'readData2'
+Compiling verilog file "inst_memory.v" in library work
+Module <register> compiled
+Compiling verilog file "data_memory.v" in library work
+Module <inst_memory> compiled
+Compiling verilog file "Ctr.v" in library work
+Module <data_memory> compiled
+ERROR:HDLCompilers:27 - "Ctr.v" line 34 Illegal redeclaration of 'regDst'
+ERROR:HDLCompilers:27 - "Ctr.v" line 35 Illegal redeclaration of 'aluSrc'
+ERROR:HDLCompilers:27 - "Ctr.v" line 36 Illegal redeclaration of 'memToReg'
+ERROR:HDLCompilers:27 - "Ctr.v" line 37 Illegal redeclaration of 'regWrite'
+ERROR:HDLCompilers:27 - "Ctr.v" line 38 Illegal redeclaration of 'memRead'
+ERROR:HDLCompilers:27 - "Ctr.v" line 39 Illegal redeclaration of 'memWrite'
+ERROR:HDLCompilers:27 - "Ctr.v" line 40 Illegal redeclaration of 'branch'
+ERROR:HDLCompilers:27 - "Ctr.v" line 41 Illegal redeclaration of 'aluOp'
+ERROR:HDLCompilers:27 - "Ctr.v" line 42 Illegal redeclaration of 'jump'
+Compiling verilog file "AluCtr.v" in library work
+Module <Ctr> compiled
+ERROR:HDLCompilers:27 - "AluCtr.v" line 27 Illegal redeclaration of 'aluCtr'
+Compiling verilog file "Alu.v" in library work
+Module <AluCtr> compiled
+ERROR:HDLCompilers:27 - "Alu.v" line 29 Illegal redeclaration of 'zero'
+ERROR:HDLCompilers:27 - "Alu.v" line 30 Illegal redeclaration of 'aluRes'
+Compiling verilog file "Top.v" in library work
+Module <Alu> compiled
+Module <Top> compiled
+Analysis of file <"Top.prj"> failed.
+--> 
+
+Total memory usage is 167192 kilobytes
+
+Number of errors   :   14 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
